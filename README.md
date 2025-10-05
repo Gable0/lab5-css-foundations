@@ -40,13 +40,16 @@ A responsive login page design demonstrating CSS Grid layout, custom styling, an
 ## Cross-Browser Compatibility
 
 ### Firefox
-[Screenshot to be added]
+<img width="1646" height="983" alt="Screenshot 2025-10-04 at 6 42 25 PM" src="https://github.com/user-attachments/assets/f28ad015-6520-445f-b437-48d5f3d6af03" />
+
 
 ### Brave
-[Screenshot to be added]
+<img width="1173" height="1242" alt="Screenshot 2025-10-04 at 6 41 46 PM" src="https://github.com/user-attachments/assets/87eba1a8-9f35-4735-af9f-1078d9850746" />
+
 
 ### Safari
-[Screenshot to be added]
+<img width="1308" height="929" alt="Screenshot 2025-10-04 at 6 43 08 PM" src="https://github.com/user-attachments/assets/d680bc4b-d95f-40f0-8e6a-27cdd4325bab" />
+
 
 ## Reflections
 
