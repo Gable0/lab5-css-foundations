@@ -9,8 +9,8 @@ A responsive login page design demonstrating CSS Grid layout, custom styling, an
 ## Project Documentation
 
 ### Technologies Used
-- HTML5
-- CSS3
+- HTML
+- CSS
   - CSS Grid for layout (1/3 : 2/3 split)
   - Flexbox for component alignment
   - Custom form styling
@@ -24,8 +24,9 @@ A responsive login page design demonstrating CSS Grid layout, custom styling, an
 - Responsive form elements
   - Email validation
   - Password field
-  - "Sign In" button with hover effects
-  - "Forgot Password" link
+- Hover affects
+  - "Sign In" button 
+  - "Forgot Password" link 
 - Modern typography using Roboto font family
 - Mobile-responsive design
 
@@ -34,7 +35,7 @@ A responsive login page design demonstrating CSS Grid layout, custom styling, an
 - Implemented form validation using HTML5 attributes
 - Created custom form field styling
 - Added hover effects for interactive elements
-- Ensured accessibility with proper label associations
+- Ensured webpage stays intact if the window changes
 - Maintained consistent spacing and typography
 
 ## Cross-Browser Compatibility
@@ -52,12 +53,16 @@ A responsive login page design demonstrating CSS Grid layout, custom styling, an
 
 
 ## Reflections
+Fun project, I liked that it felt like I was actually making something. I liked that I had to look up how to do things and then was able to apply that knowledge later in the project and didn't need to look it up again. I now have a better understanding of what is happening behind the glass then I am using a webpage.
 
 ### What Went Well
--
+- Organization: I tried to keep related items together as best I could
+- Separation: As per the instructions, keeping my HTML and CSS in separate files helps so I know were one ends and the other begins
+- Details: I added extra things such as the gradient to make the page not only look closer to the reference, but also to make it look more polished
 
 ### Challenges Faced
-- 
+- W3C Validator: Having to go back and change things that I didn't know were a problem was annoying. 
+- Spacing: Figuring out where/how to arrange the blocks and sections was challenging. One moment its fine, then one rem unit change later and a button is off in Narnia 
 
 ## Author
 Gable Krich  
