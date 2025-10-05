@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lab 5 - Login Page</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-    <meta charSet="UTF-8">
-    <title>Super Ai Dash Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super AI Dash Log In</title>
     <style>
+        /*CSS Grid for <body>*/
+        body{
+            display: grid;
+            grid-template-columns: 1.35fr 1.65fr;
+            height: 100vh;
+            margin: 0;
+        }
+
         h1{
             color: white;
             font-size: 4rem;
+            font-family: 'Roboto', 'Open Sans', sans-serif;
+            margin: 0.5rem;
+        }
+
+        p{
+            color: white;
+            font-size: 1.5rem;
+            font-family: 'Roboto', 'Open Sans', sans-serif;
+            margin-top: 0.5rem;
+        }
+
+        label{
+            font-family: 'Roboto', 'Open Sans', sans-serif;
+        }
+
+        button{
+            font-family: 'Roboto', 'Open Sans', sans-serif;
+            font-size: 11pt;
+            background-color: rgb(76, 100, 237);
+            color: white;
+            border: none;
+            padding: 0.95rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            margin-top: 0rem;
+            width: 100px;
+            text-align: center;
+        }
+
+        a{
+            font-family: 'Roboto', 'Open Sans', sans-serif;
+            color: rgb(85, 140, 230);
+            text-decoration: none;
+            margin-top: 1rem;
         }
 
         form-field{
@@ -19,43 +57,69 @@
         }
 
         #login-info{
-            background-color: lightskyblue;
+            background-color: rgb(70, 155, 246);
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         #login-form{
             background-color: white;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: auto;
+            margin: 0rem;
+        }
+        #login-form form-field {
+            margin-bottom: 1rem;
+        }
+        #login-form input {
+            padding: 0.5rem;
+            border-radius: 0.25rem;
+            border: 1px solid #ccc;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        /*a means all <a> tags, which in this case would be the forgot password link*/
+        #login-form a { 
+            display: block;
+            text-align: right;
+            width: 100%;
+            font-size: 0.875rem;
+            margin-top: 0;
         }
     </style>
+</head>
 <body>
-  <!-- Gable Krich - Lab 5 -->
-<Section id="login-info"> 
-  <h1>Super AI Dash</h1> 
-  <p>AI powered finance Apes, alt-coins,</p>
-  <p>and fiat currency, we promise you won't</p>
-  <p>lose <strong>all</strong> of it.</p> 
-</Section>    
+    <!-- Gable Krich - Lab 5 -->
+    <Section id="login-info">
+        <h1>Super Ai Dash</h1>
+        <p>AI powered finance Apes, alt-coins, and fiat currency, we promise you won't lose <strong><em>all</em></strong> of it.</p>
+    </Section>
 
-<Section id="login-form">
-  <form action="#" method="post">
-    
-    <form-field> 
-          <label for "Email" Email Address</label>
-          <input type="email" name="email" id="emailField"> 
-          <placeholder="you@example.com" autofocus required> 
-    </form-field>        
+    <Section id="login-form">
+        <form action="#" method="post">
+
+            <form-field>
+                <label for="emailField">Email Address</label>
+                <input type="email" name="email" id="emailField" placeholder="you@example.com" autofocus required>
+            </form-field>
+
+            <form-field>
+                <label for="passwordField">Password</label>
+                <input type="password" name="password" id="passwordField" placeholder="Enter your password" required>
+            </form-field>
+
+            <form-field>
+                <button type="submit"><b>Sign In</b></button>
+                <a href="forgot.php">Forgot Password?</a> 
+            </form-field>
+
             
-    <form-field> 
-          <label for "Password" Password</label>
-          <input type="text name="password" id="passwordField">
-          <placeholder="Enter your password" required> 
-    </form-field>             
-  
-    <form-field>
-        <button type="submit">Sign In></button>
-    </form-field>
-  
-    <a href="forgot.php">Forgot Password</a>
-    </form>
-</Section>   
-    
+        </form>
+    </Section>
+
 </body>
 </html>
